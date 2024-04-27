@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+
 * {
   margin: 0;
   padding: 0;
@@ -11,16 +13,16 @@
   position: absolute;
   width: 50%;
   height: 50%;
-  background-color: rgba(50, 107, 98, 0.7); /* Semi-transparent orange background */
+  background-color: rgba(55, 143, 244, 0.7); 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid rgba(0, 0, 0, 0.9); /* Lighter orange border */
+  border: 2px solid rgba(255, 255, 255, 0.9); 
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255, 165, 0, 0.3); /* Subtle shadow */
+  box-shadow: 0 0 20px rgba(55, 143, 244, 0.7); 
   overflow: hidden;
-  animation: openContainer 0.5s ease-out forwards; /* Faster opening animation */
-  opacity: 0; /* Initially hidden */
+  animation: openContainer 0.5s ease-out forwards; 
+  opacity: 0; 
 }
 
 .open-animation {
@@ -41,7 +43,7 @@
 .Banner {
   position: absolute;
   width: 100%;
-  background-image: url("https://media.discordapp.net/attachments/1010163784624652308/1230450711440003102/standard.gif?ex=66335d86&is=6620e886&hm=9a8ade89e022603e3b029d08565d628867cd69e36f9b06c93aa903b200dcf790&=");
+  background-image: url("https://media.discordapp.net/attachments/1010163784624652308/1233847304008634429/standard_1.gif?ex=662e9559&is=662d43d9&hm=1081a6813a545784a46e0687a6732d9ba70b961d212e2d7c60055587540801bf&=");
   background-size: cover;
   background-repeat: no-repeat;
   height: 5vw; /* Adjusted height for better visibility */
@@ -75,19 +77,23 @@ th {
   font-size: 0.8vw;  
   color: white;
   padding: 5px;
-  background-color: rgba(0, 153, 128, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 td {
-  border: 1px solid rgba(0, 0, 0, 1);
+
   font-size: 0.8vw;
   text-align: center;
   color: white;
 }
 
+td:hover {
+  cursor: pointer;
+  background-color: rgba(55, 143, 244, 0.7);
+}
+
 tr:hover {
   cursor: pointer;
-  background-color: rgba(0, 153, 128, 0.8);
 }
 
 .Footer {
