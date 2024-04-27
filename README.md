@@ -1,7 +1,24 @@
-# Scoreboard
+# Ruin Scoreboard - FiveM Scoreboard [ESX/QBCORE]
 
-# ![standard (1)](https://github.com/ruinpvtltd/ruin_scoreboard/assets/135980915/5176b684-5722-42b1-9090-07178065a583)
+# Preview
+- Preview: 
+![image](https://github.com/ruinpvtltd/ruin_scoreboard/assets/135980915/43092b1d-18b7-4034-b04f-b1dad7d702a1)
 
-```css
-test 
-```
+# How to Install?
+- Download Resource from Github
+- Also donwnload its dependency
+- Drag & Drop it into your server resources folder
+- Write this in your Server's `server.cfg`
+  ```ensure ruin_lib```
+  ```ensure ruin_scoreboard```
+
+
+  # Dependency
+  - ruin_lib :
+
+  # Language
+  - Lua
+  - Css
+  - Html
+  - Javascript
+ 
