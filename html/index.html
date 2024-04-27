@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdn.staticaly.com/gh/hung1001/font-awesome-pro-v6/18657a9/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js" type="text/javascript"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <audio id="opening-sound">
+        <source src="opening-sound.mp3" type="audio/mpeg">
+      </audio>
+
+    <div class="Container" style="display: none;">
+        <div class="Banner">
+        </div>
+        <div class="AllContainerAppend">
+            <table cellspacing="2">
+                <thead>
+                    <tr>
+                        <th><i class="fa-solid fa-user"></i> Name</th>
+                        <th><i class="fa-solid fa-circle-exclamation"></i> Server ID</th>
+                        <th><i class="fa-solid fa-user-helmet-safety"></i> Job</th>
+                        <th><i class="fa-solid fa-user-helmet-safety"></i> Staff</th>
+                        <th><i class="fa-solid fa-wifi"></i> Ping</th>
+                    </tr>
+                </thead>
+                <tbody class="tablape">
+                </tbody>
+            </table>
+        </div>
+        <div class="Footer">
+            <table id="footertable">
+                <table cellspacing="5">
+                <thead>
+                    <th id="uptime"><i class=""></i> UPTIME 00:00</th>
+                    <th id="total"><i class=""></i> PLAYER COUNT NOTFOUND</th>
+                    <th class="btn button" onclick="window.invokeNative('openUrl', '${Config.discordUrl}')" scope="col"><i class="fa-brands fa-discord"></i> DISCORD</th>
+                    <th class="btn button" onclick="window.invokeNative('openUrl', '${Config.shopUrl}')" scope="col"><i class="fa-solid fa-cart-shopping"></i> SHOP</th>
+                </thead>
+            </table>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script async src="script.js"></script>
+
+</html>

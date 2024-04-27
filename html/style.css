@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-size: 0.8vw;
+  user-select: none;
+}
+
+.Container {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: rgba(50, 107, 98, 0.7); /* Semi-transparent orange background */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(0, 0, 0, 0.9); /* Lighter orange border */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 165, 0, 0.3); /* Subtle shadow */
+  overflow: hidden;
+  animation: openContainer 0.5s ease-out forwards; /* Faster opening animation */
+  opacity: 0; /* Initially hidden */
+}
+
+.open-animation {
+  opacity: 1;
+}
+
+@keyframes openContainer {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+
+
+.Banner {
+  position: absolute;
+  width: 100%;
+  background-image: url("https://media.discordapp.net/attachments/1010163784624652308/1230450711440003102/standard.gif?ex=66335d86&is=6620e886&hm=9a8ade89e022603e3b029d08565d628867cd69e36f9b06c93aa903b200dcf790&=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 5vw; /* Adjusted height for better visibility */
+}
+
+.AllContainerAppend {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 5vw); /* Adjusted height to accommodate the banner */
+  bottom: 0;
+  overflow-y: auto;
+}
+
+
+table {
+  height: 10%;
+  width: 100%;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
+
+#footertable {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 70%;
+}
+
+th {
+  font-size: 0.8vw;  
+  color: white;
+  padding: 5px;
+  background-color: rgba(0, 153, 128, 0.8);
+}
+
+td {
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-size: 0.8vw;
+  text-align: center;
+  color: white;
+}
+
+tr:hover {
+  cursor: pointer;
+  background-color: rgba(0, 153, 128, 0.8);
+}
+
+.Footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0vw;
+  height: 2.5vw;
+}
+
+.tablape img {
+  border-radius: 50%;
+  width: 1.3vw;
+  height: 1.3vw;
+  background-color: rgb(0, 0, 0);
+  vertical-align: middle;
+}
+
+::-webkit-scrollbar {
+  width: .5vw;
+  height: .35vw;
+  border-radius: 50vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 195, 255, 0.8);
+  height: .3vw;
+  border-radius: 50vw;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 195, 255, 0.8);
+  height: .8vw;
+  border-radius: 50vw;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:focus {
+  background: rgba(0, 195, 255, 0.8);
+  height: .3vw;
+  border-radius: 50vw;
+}
