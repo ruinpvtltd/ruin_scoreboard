@@ -3,7 +3,7 @@ fx_version 'cerulean'
 game 'gta5'
 description 'This is a clean and simple scoreboard script with low ms by RUIN PVT LTD'
 lua54 'yes'
-version '1.0.0'
+version '1.0'
 
 --Client Scripts-- 
 client_scripts {
