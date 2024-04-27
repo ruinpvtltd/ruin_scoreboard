@@ -9,9 +9,10 @@
 - Also donwnload its dependency
 - Drag & Drop it into your server resources folder
 - Write this in your Server's `server.cfg`
-  ```
+```
   ensure ruin_lib
-  ensure ruin_scoreboard```
+  ensure ruin_scoreboard
+```
 
 
   # Dependency
