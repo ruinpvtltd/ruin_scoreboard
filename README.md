@@ -1,6 +1,6 @@
 # Ruin Scoreboard - FiveM Scoreboard [ESX/QBCORE]
 
-# Preview
+## Preview
 - Preview: 
 ![image](https://github.com/ruinpvtltd/ruin_scoreboard/assets/135980915/43092b1d-18b7-4034-b04f-b1dad7d702a1)
 
