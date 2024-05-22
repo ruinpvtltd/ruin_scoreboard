@@ -16,7 +16,7 @@
 
 
   # Dependency
-  - ruin_lib :
+  - ruin_lib : https://github.com/ruinpvtltd/ruin_lib
 
   # Language
   - Lua
